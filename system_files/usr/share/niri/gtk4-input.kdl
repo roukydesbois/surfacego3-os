@@ -1,0 +1,4 @@
+# Make sure the accents with ALTGR are working properly with GTK4 apps
+environment {
+    GTK_IM_MODULE "gtk-im-context-simple"
+}
